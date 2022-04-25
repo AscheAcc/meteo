@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    position: relative;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+body  {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+    font-weight: bold;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#page {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.range {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.range span {
+    font-size: 15px;
+    opacity: .6;
+}
+aside {
+    border-top: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+aside div {
+    display: flex;
+    padding: 10px;
+}
+section div h1 {
+    font-size: 80px;
+    align-self: baseline;
+
+}
+section div span {
+    font-size: 30px;
+    align-self: baseline;
+    padding-left: 10px;
+}
+#temp {
+    display: flex;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+header form {
+    display: flex;
+    align-self: center;
+}
+input {
+    border-radius: 10px;
+    position: relative;
+    width: 180px;
+    height: 30px;
+    border-style: none;
+
+}
+button {
+    position: relative;
+    height: 30px;
+    display: none;
+
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Méteo</title>
+    <script defer src="main.js"></script>
+    <link rel="shortcut icon" href="weather.png" type="image/x-icon">
+    
+
+</head>
+<body>
+    <div id="page">
+        <header>
+            <form action="" onsubmit="faux()">
+                <input id="search" class="search" placeholder="La ville à en rechercher..">
+                <button type="submit" class="button submit"><span class="glyphicon glyphicon-search"></span></button>
+                <p class="error"></p>
+            </form>
+
+            <h1 class="city"></h1>
+            <h3 class="date"></h3>
+
+        </header>
+        <main>
+            <section>
+                <div id="temp">
+                    <h1 class="temp"></h1> <span>°C</span>
+                </div>
+                
+               <h3 class="weather"></h3>
+            </section>
+            <aside>
+                <div class="range">
+                    <div class="hight"> </div>
+                    <span>Hight</span>
+                </div>
+                <div class="range">
+                    <div class="low"> </div>
+                    <span>Low</span>
+
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+</html>
