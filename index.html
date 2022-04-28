@@ -8,13 +8,14 @@
     <title>Méteo</title>
     <script defer src="main.js"></script>
     <link rel="shortcut icon" href="weather.png" type="image/x-icon">
+    
 
 </head>
 <body>
     <div id="page">
         <header>
             <form action="" onsubmit="faux()">
-                <input id="search" class="search" placeholder="La ville à en rechercher..">
+                <input id="search" class="search" placeholder="Search City.." onclick="getLocation()">
                 <button type="submit" class="button submit"><span class="glyphicon glyphicon-search"></span></button>
                 <p class="error"></p>
             </form>
@@ -34,7 +35,7 @@
             <aside>
                 <div class="range">
                     <div class="hight"> </div>
-                    <span>Hight</span>
+                    <span>High</span>
                 </div>
                 <div class="range">
                     <div class="low"> </div>
