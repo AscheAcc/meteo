@@ -110,3 +110,10 @@ button {
 
 
 }
+@media all and (max-width: 1024px)
+{
+    #page {
+        width: 90%;
+
+    }
+}
