@@ -38,7 +38,7 @@ body  {
 #page {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     height: 70%;
 }
 main {
