@@ -113,7 +113,10 @@ button {
 @media all and (max-width: 1024px)
 {
     #page {
-        width: 90%;
+        width: 85%;
 
+    }
+    .city {
+       padding-top: 33px;
     }
 }
